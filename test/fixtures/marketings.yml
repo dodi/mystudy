@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nama: MyString
+  email: MyString
+  jumlahpeserta: 1
+  keterangan: MyText
+
+two:
+  nama: MyString
+  email: MyString
+  jumlahpeserta: 1
+  keterangan: MyText

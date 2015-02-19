@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @marketing.nama %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @marketing.email %>
+</p>
+
+<p>
+  <strong>Jumlahpeserta:</strong>
+  <%= @marketing.jumlahpeserta %>
+</p>
+
+<p>
+  <strong>Keterangan:</strong>
+  <%= @marketing.keterangan %>
+</p>
+
+<%= link_to 'Edit', edit_marketing_path(@marketing) %> |
+<%= link_to 'Back', marketings_path %>
